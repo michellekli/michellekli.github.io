@@ -4,6 +4,10 @@
   font-size: 1.1rem;
   margin-top: 70px;
 
+  @include mobile {
+    margin-top: 0px;
+  }
+
   &__light {
     width: 30px;
     height: 30px;
