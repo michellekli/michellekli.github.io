@@ -5,19 +5,18 @@ description: Data scientist skilled in implementing machine learning to solve bu
 url: https://michelleli.tech/
 baseurl: ""
 email: michelle.li.524@gmail.com
-cover: https://github.com/michellekli/michellekli.github.io/raw/master/img/og.png
-logo: https://github.com/michellekli/michellekli.github.io/raw/master/img/emojis/chart.png
-resume: https://github.com/michellekli/michellekli.github.io/raw/master/resume.pdf
+cover: img/og.png
+logo: img/emojis/chart.png
+resume: resume.pdf
 social:
   - title: resume
-    url: https://github.com/michellekli/michellekli.github.io/raw/master/resume.pdf
+    url: resume.pdf
   - title: email
     url: mailto:michelle.li.524@gmail.com
   - title: github
     url: https://github.com/michellekli
   - title: linkedin
     url: https://www.linkedin.com/in/michelleli524
-
 
 # Build settings
 markdown: kramdown
