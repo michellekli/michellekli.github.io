@@ -1,19 +1,17 @@
 <footer class="footer">
   <div class="footer__copyright">
     <div class="top">
-      <span>Designed &amp; Developed by</span>
+      <span>Adapted from <a class="underline-link" href="https://github.com/michellekli/bchiang7.github.io" target="_blank">Brittany Chiang's design</a></span>
     </div>
     <div class="bottom">
-      <span>Brittany Chiang</span>
-      <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
-      <span>2018</span>
+      <span>Copyright 2019 Michelle Li</span>
     </div>
   </div>
   <div class="footer__links">
     {% for link in site.social %}
     <a href="{{link.url}}" target="_blank" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+      <!-- <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}"> -->
     </a>
     {% endfor %}
   </div>

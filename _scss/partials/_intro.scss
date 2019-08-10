@@ -1,6 +1,6 @@
 .intro {
   padding: 120px 100px;
-  height: 100vh;
+  height: 91vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -14,6 +14,12 @@
   }
   @include mobile {
     padding: 70px 50px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__hello, &__tagline {
@@ -92,12 +98,12 @@
   }
   &__tagline {
     font-weight: 300;
-    max-width: 700px;
+    // max-width: 700px;
     .name {
       font-weight: 700;
     }
-    .technologist {
-      background-image: url('../img/emojis/technologist.png');
+    .chart {
+      background-image: url('../img/emojis/chart.png');
     }
   }
   &__contact {

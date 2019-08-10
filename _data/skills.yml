@@ -1,33 +1,41 @@
-languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
+datascience:
+  - item: Statistics
+  - item: Experimental Design
+  - item: Web Scraping
+  - item: Data Wrangling
+  - item: Exploratory Data Analysis
+  - item: Machine Learning
+  - item: Data Visualization
+  - item: Presenting Results
+  - item: Tableau
+
+machinelearning:
+  - item: Supervised Methods
+  - item: Unsupervised Methods
+  - item: Regression
+  - item: Classification
+  - item: Clustering
+  - item: Natural Language Processing
+  - item: Time Series Analysis
+
+packages:
+  - item: Numpy
+  - item: Pandas
+  - item: Matplotlib
+  - item: Seaborn
+  - item: Scikit-Learn
+  - item: Statsmodels
+  - item: SciPy
+  - item: SpaCy
+
+programming:
   - item: Python
   - item: SQL
-  - item: R
-
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
-
-tools:
-  - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
-
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+  - item: Java
+  - item: C/C++
+  - item: JavaScript
+  - item: HTML/CSS
+  - item: Git
+  - item: OOP
+  - item: API Design
+  - item: ETL Scripting

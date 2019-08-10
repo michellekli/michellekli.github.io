@@ -97,17 +97,21 @@ strong {
   display: flex;
   justify-content: center;
   padding: 100px 170px;
+  padding-top: 0px;
   @include thirteen {
     padding: 100px;
+    padding-top: 0px;
   }
   @include desktop {
     padding: 50px;
+    padding-top: 0px;
   }
   @include tablet {
     display: block;
   }
   @include mobile {
     padding: 50px 35px;
+    padding-top: 0px;
   }
   &__title {
     flex-shrink: 0;
