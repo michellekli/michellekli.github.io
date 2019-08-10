@@ -20,6 +20,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include mobile {
+      display: none;
+    }
   }
 
   &__hello, &__tagline {
