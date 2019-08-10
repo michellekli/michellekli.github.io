@@ -6,19 +6,19 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
-    input.checked = true;
-    body.classList.add('night');
-  }
+  // if (night) {
+  //   input.checked = true;
+  //   body.classList.add('night');
+  // }
 
-  toggle.addEventListener('click', function() {
-    const isChecked = input.checked;
-    if (isChecked) {
-      body.classList.remove('night');
-    } else {
-      body.classList.add('night');
-    }
-  });
+  // toggle.addEventListener('click', function() {
+  //   const isChecked = input.checked;
+  //   if (isChecked) {
+  //     body.classList.remove('night');
+  //   } else {
+  //     body.classList.add('night');
+  //   }
+  // });
 
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
@@ -69,7 +69,7 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  sr.reveal('.background');
+  // sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
   sr.reveal('.featured-projects', { viewFactor: 0.1 });
