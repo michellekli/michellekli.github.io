@@ -2,7 +2,7 @@ datascience:
   - item: Statistics
   - item: Experimental Design
   - item: Web Scraping
-  - item: Data Wrangling
+  - item: Data Cleaning/Wrangling
   - item: Exploratory Data Analysis
   - item: Machine Learning
   - item: Data Visualization
