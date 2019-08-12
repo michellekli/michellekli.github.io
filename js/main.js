@@ -63,7 +63,7 @@ $(function() {
 
   window.sr = ScrollReveal({
     reset: false,
-    duration: 400,
+    duration: 600,
     easing: 'cubic-bezier(.694,0,.335,1)',
     scale: 1,
     viewFactor: 0.1,
