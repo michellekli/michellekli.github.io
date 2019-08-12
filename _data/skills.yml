@@ -10,8 +10,8 @@ datascience:
   - item: Tableau
 
 machinelearning:
-  - item: Supervised Methods
-  - item: Unsupervised Methods
+  - item: Supervised Learning
+  - item: Unsupervised Learning
   - item: Regression
   - item: Classification
   - item: Clustering
