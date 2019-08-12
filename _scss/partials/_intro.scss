@@ -14,12 +14,16 @@
   }
   @include mobile {
     padding: 70px 50px;
+    height: 85vh;
   }
 
   &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include mobile {
+      display: none;
+    }
   }
 
   &__hello, &__tagline {
