@@ -4,6 +4,14 @@
     <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
     <div class="skillz">
       <div class="skillz__category">
+        <div class="skillz__category__label">Programming</div>
+        <ul>
+          {% for skill in site.data.skills.programming %}
+          <li class="skillz__category__item">{{skill.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
         <div class="skillz__category__label">Data Science</div>
         <ul>
           {% for skill in site.data.skills.datascience %}
@@ -19,22 +27,14 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="skillz__category">
+      <!-- <div class="skillz__category">
         <div class="skillz__category__label">Packages</div>
         <ul>
           {% for skill in site.data.skills.packages %}
           <li class="skillz__category__item">{{skill.item}}</li>
           {% endfor %}
         </ul>
-      </div>
-      <div class="skillz__category">
-        <div class="skillz__category__label">Programming</div>
-        <ul>
-          {% for skill in site.data.skills.programming %}
-          <li class="skillz__category__item">{{skill.item}}</li>
-          {% endfor %}
-        </ul>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

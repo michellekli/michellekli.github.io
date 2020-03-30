@@ -7,10 +7,10 @@ baseurl: ""
 email: michelle.li.524@gmail.com
 cover: img/og.png
 logo: img/emojis/chart.png
-resume: Michelle_Li_Data_Scientist_Resume.pdf
+resume: Michelle_Li_Resume.pdf
 social:
   - title: resume
-    url: Michelle_Li_Data_Scientist_Resume.pdf
+    url: Michelle_Li_Resume.pdf
   - title: email
     url: mailto:michelle.li.524@gmail.com
   - title: github

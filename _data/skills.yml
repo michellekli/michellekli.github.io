@@ -29,6 +29,7 @@ packages:
   - item: SpaCy
 
 programming:
+  - item: R
   - item: Python
   - item: SQL
   - item: Java
